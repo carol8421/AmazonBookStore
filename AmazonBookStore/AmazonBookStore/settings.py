@@ -37,6 +37,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'tinymce', # 富文本编辑器
+    'haystack', # 注册全文检索框架
+    ''
 )
 
 MIDDLEWARE_CLASSES = (

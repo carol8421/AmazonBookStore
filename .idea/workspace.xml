@@ -34,28 +34,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AmazonBookStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmazonBookStore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AmazonBookStore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AmazonBookStore" type="462c0819:PsiDirectoryNode" />
-              <item name="AmazonBookStore" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AmazonBookStore" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
