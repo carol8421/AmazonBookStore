@@ -118,3 +118,33 @@ TINYMCE_DEFAULT_CONFIG = {
     'width': 600,
     'height': 400,
 }
+
+# 发送邮件配置
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# 发邮件的smtp服务器的地址
+EMAIL_HOST = 'smtp.163.com'
+EMAIL_PORT = 25
+# 发送邮件的邮箱
+EMAIL_HOST_USER = 'pythonlearn2019@163.com'
+# 在邮箱中设置的客户端授权密码
+EMAIL_HOST_PASSWORD = '123456'
+# 收件人看到的发件人
+EMAIL_FROM = '亚马逊图书<pythonlearn2019@163.com>'
+
+# Django的缓存配置
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://192.168.44.138:6379/9",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+# 配置session存储
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "default"
+
+# 配置登录url地址
+LOGIN_URL = '/user/login'
